@@ -1,0 +1,18 @@
+{
+  "name": "remwaste",
+  "version": "1.0.0",
+  "description": "git clone <repo-url>\r cd mini-tasker\r npm install\r npm run dev          # For local frontend\r npm run server       # Starts backend\r npm run test         # Runs API tests\r npm run test:ui      # Launches UI automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.5.3"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^4.0.0"
+  }
+}
